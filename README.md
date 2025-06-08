@@ -15,10 +15,9 @@ Two Real-Life Use Cases
 Q-2.-> Block Anatomy
         Draw a block showing: data, previous hash, timestamp, nonce, and Merkle root.
         Briefly explain with an example how the Merkle root helps verify data integrity.
-Ans:    
-
-.     Merkle Root Explanation:
-        The Merkle root is like a single fingerprint that summarizes all the transactions in a block. It’s made by repeatedly hashing pairs of transactions until there’s just one hash left.
+Ans:    ![Block Diagram](Untitled-2025-06-08-2107.png)
+        Merkle Root Explanation:
+        The Merkle root is like a single fingerprint that summarizes all the transactions in a block. It’s made by repeatedly hashing pairs of transactions until there’s just            one hash left.
         Let’s say you have transactions A, B, C, and D:
         * Hash A and B → H1, C and D → H2
         * Hash H1 and H2 → Merkle Root
